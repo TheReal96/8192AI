@@ -1,4 +1,4 @@
-﻿@import url(fonts/clear-sans.css);
+@import url(fonts/clear-sans.css);
 /* line 21, main.scss */
 html, body {
   margin: 0;
@@ -537,6 +537,18 @@ hr {
 @media screen and (max-width: 480px) {
   /* line 332, main.scss */
   .tile.tile-4096 {
+    font-size: 15px;
+  }
+}
+/* line 332, main.scss */
+.tile.tile-8192 {
+  color: white;
+  background: #2A005C;
+  font-size: 35px;
+}
+@media screen and (max-width: 480px) {
+  /* line 332, main.scss */
+  .tile.tile-8192 {
     font-size: 15px;
   }
 }
