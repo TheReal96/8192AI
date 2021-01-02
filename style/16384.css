@@ -3,8 +3,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #FAFAFA;
-  color: #737373;
+  background: #432100;
+  color: #FFFFFF;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
 }
@@ -82,14 +82,14 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #FFEA00;
+  background: #F1FF00;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
   line-height: 47px;
   font-weight: bold;
   border-radius: 3px;
-  color: #776e65;
+  color: #568934;
   margin-top: 8px;
   text-align: center;
   font-family: STXihei;
@@ -104,7 +104,7 @@ h1.title {
   font-size: 13px;
   line-height: 13px;
   text-align: center;
-  color: #776e65;
+  color: #ff7600;
   font-family: STXihei;
 }
 /* line 94, main.scss */
@@ -115,7 +115,7 @@ h1.title {
   font-size: 25px;
   line-height: 25px;
   font-weight: bold;
-  color: #C105FF;
+  color: #568934;
   z-index: 100;
   -webkit-animation: move-up 600ms ease-in;
   -moz-animation: move-up 600ms ease-in;
@@ -213,7 +213,7 @@ hr {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  background: #E3E3E3;
+  background: #664500;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -301,7 +301,7 @@ hr {
   margin-right: 15px;
   float: left;
   border-radius: 3px;
-  background: #F2F2F2;
+  background: #BCB9B2;
 }
 /* line 266, main.scss */
 .grid-cell:last-child {
@@ -433,39 +433,39 @@ hr {
 /* line 332, main.scss */
 .tile.tile-2 {
   color: white;
-  background: #DCB5FF;
+  background: #110800;
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
 }
 /* line 332, main.scss */
 .tile.tile-4 {
   color: white;
-  background: #d3a4ff;
+  background: #341A00;
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
 }
 /* line 332, main.scss */
 .tile.tile-8 {
   color: white;
-  background: #CA8EFF;
+  background: #894500;
 }
 /* line 332, main.scss */
 .tile.tile-16 {
   color: white;
-  background: #BE77FF;
+  background: #CC6800;
 }
 /* line 332, main.scss */
 .tile.tile-32 {
   color: white;
-  background: #B15BFF;
+  background: #ED7400;
 }
 /* line 332, main.scss */
 .tile.tile-64 {
   color: white;
-  background: #9F35FF;
+  background: #FF8412;
 }
 /* line 332, main.scss */
 .tile.tile-128 {
   color: white;
-  background: #921AFF;
+  background: #FFEC00;
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.20833), inset 0 0 0 1px rgba(255, 255, 255, 0.125);
   font-size: 45px;
 }
@@ -478,7 +478,7 @@ hr {
 /* line 332, main.scss */
 .tile.tile-256 {
   color: white;
-  background: #8600FF;
+  background: #EADA00;
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.27778), inset 0 0 0 1px rgba(255, 255, 255, 0.16667);
   font-size: 45px;
 }
@@ -491,7 +491,7 @@ hr {
 /* line 332, main.scss */
 .tile.tile-512 {
   color: white;
-  background: #6F00D2;
+  background: #D8C900;
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.34722), inset 0 0 0 1px rgba(255, 255, 255, 0.20833);
   font-size: 45px;
 }
@@ -504,7 +504,7 @@ hr {
 /* line 332, main.scss */
 .tile.tile-1024 {
   color: white;
-  background: #5B00AE;
+  background: #C5B700;
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.41667), inset 0 0 0 1px rgba(255, 255, 255, 0.25);
   font-size: 35px;
 }
@@ -517,7 +517,7 @@ hr {
 /* line 332, main.scss */
 .tile.tile-2048 {
   color: white;
-  background: #4B0091;
+  background: #BCA200;
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.48611), inset 0 0 0 1px rgba(255, 255, 255, 0.29167);
   font-size: 35px;
 }
@@ -530,7 +530,7 @@ hr {
 /* line 332, main.scss */
 .tile.tile-4096 {
   color: white;
-  background: #3A006F;
+  background: #A39100;
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
   font-size: 35px;
 }
@@ -543,7 +543,7 @@ hr {
 /* line 332, main.scss */
 .tile.tile-8192 {
   color: white;
-  background: #2A005C;
+  background: #988F00;
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.62), inset 0 0 0 1px rgba(255, 255, 255, 0.37);
   font-size: 35px;
 }
@@ -556,7 +556,7 @@ hr {
 /* line 332, main.scss */
 .tile.tile-16384 {
   color: white;
-  background: #19004A;
+  background: #887C00;
   box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.74), inset 0 0 0 1px rgba(255, 255, 255, 0.40);
   font-size: 32.5px;
 }
@@ -748,7 +748,7 @@ hr {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -moz-user-select: none;
-    background: #bbada0;
+    background: #664500;
     border-radius: 6px;
     width: 280px;
     height: 280px;
@@ -978,7 +978,7 @@ hr {
   position: relative;
   margin-left: 0px;
   display: inline-block;
-  background: #FFF478;
+  background: #F1FF00;
   border-radius: 10px;
   padding: 0 20px;
   text-decoration: none;
@@ -995,7 +995,7 @@ hr {
   margin-top: 5px;
   margin-left: 0px;
   display: inline-block;
-  background: #DCB5FF;
+  background: #664500;
   border-radius: 10px;
   padding: 0 20px;
   text-decoration: none;
