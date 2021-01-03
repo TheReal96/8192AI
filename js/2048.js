@@ -1,5 +1,5 @@
     var Autoplay = function() {
-    	var limitMax = 4096,
+    	var limitMax = 8192,
     	maxValue = 0,
     	currentMax = 0,
     	maxScore = 0,
